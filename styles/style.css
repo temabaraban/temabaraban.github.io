@@ -1,0 +1,50 @@
+html {
+  background-color: #00539f;
+  font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #c61919;
+  text-shadow: 3px 3px 1px rgb(44, 44, 44);
+}
+
+h1:hover {
+  color: rgb(0, 255, 17);
+  text-shadow: 3px 3px 1px#c61919;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  /* width: auto; */
+}
+
+#change-user-button {
+  display: block;
+  margin: 0 auto;
+}
+
+#reset-user-button {
+  display: block;
+  margin: 0 auto;
+}
