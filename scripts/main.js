@@ -1,13 +1,13 @@
-var myImage = document.querySelector("img");
+// var myImage = document.querySelector("img");
 
-myImage.onclick = function () {
-  var mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/firefox-icon.png") {
-    myImage.setAttribute("src", "images/firefox2.png");
-  } else {
-    myImage.setAttribute("src", "images/firefox-icon.png");
-  }
-};
+// myImage.onclick = function () {
+//   var mySrc = myImage.getAttribute("src");
+//   if (mySrc === "images/firefox-icon.png") {
+//     myImage.setAttribute("src", "images/firefox2.png");
+//   } else {
+//     myImage.setAttribute("src", "images/firefox-icon.png");
+//   }
+// };
 
 var changeUserNameButton = document.querySelector("#change-user-button");
 var resetUserNameButton = document.querySelector("#reset-user-button");
